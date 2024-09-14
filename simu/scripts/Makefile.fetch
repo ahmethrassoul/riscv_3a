@@ -1,0 +1,36 @@
+TARGET = fetch_tb
+
+%GHDL_SIM_FLAGS= --stop-time=10us
+%GHDL_SIM_FLAGS=
+
+VHDL_SRC =  ../src/tools/strings_h.vhdl \
+            ../src/tools/regexp_h.vhdl  \
+            ../src/tools/ctype_h.vhdl   \
+            ../src/tools/stdlib_h.vhdl  \
+            ../src/tools/stdio_h.vhdl   \
+            ../src/riscv_types.vhd      \
+            ../src/fetch.vhd
+
+TESTBENCH_SRC = ../testbench/fetch_tb.vhd
+
+WAVEFORMS = $(TARGET).ghw
+GTKWAVE_CFG = $(TARGET).gtkw
+
+.PHONY: analysis clean waves
+
+default: notrace
+
+analysis: $(VHDL_SRC) $(TESTBENCH_SRC)
+	ghdl -a  --std=08 -fsynopsys -Wno-hide -Wno-shared -frelaxed $^
+
+$(TARGET): analysis
+	ghdl -e --std=08 -frelaxed $@
+
+notrace: $(TARGET)
+	ghdl -r --std=08 -frelaxed $^ $(GHDL_SIM_FLAGS) --ieee-asserts=disable --max-stack-alloc=0
+
+trace: $(TARGET)
+	ghdl -r --std=08 -frelaxed $^ $(GHDL_SIM_FLAGS) --vcd=$@.vcd --ieee-asserts=disable --max-stack-alloc=0
+
+clean:
+	rm -rf $(TARGET) $(WAVEFORMS) 

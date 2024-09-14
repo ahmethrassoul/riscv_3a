@@ -1,0 +1,115 @@
+# //  ModelSim SE-64 10.0_1 Jan  8 2011 Linux 6.5.0-35-generic
+# //
+# //  Copyright 1991-2011 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project Risc5
+# Compile of mem_ram.vhd was successful.
+# Compile of mem_rom.vhd was successful.
+# Compile of mem_ram_tb.vhd was successful.
+# Compile of mem_rom_tb.vhd was successful.
+# Compile of fetch.vhd was successful.
+# Compile of fetch_tb.vhd was successful.
+# Compile of decoder.vhd was successful.
+# Compile of decoder_tb.vhd was successful.
+# Compile of immediate.vhd was successful.
+# Compile of immediate_tb.vhd was successful.
+# Compile of riscv_types.vhd was successful.
+# Compile of mem_load.vhd was successful.
+# Compile of mem_load_tb.vhd was successful.
+# Compile of mem_store_tb.vhd was successful.
+# Compile of mem_store.vhd was successful.
+# Compile of alu.vhd was successful.
+# Compile of alu_tb.vhd was successful.
+# 17 compiles, 0 failed with no errors. 
+vsim work.alu_tb
+# vsim work.alu_tb 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.alu_tb(bench)#1
+# ** Warning: (vsim-8683) Uninitialized out port /alu_tb/uut/aluPlus_v(31 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU) to the signal network.
+#         Region: /alu_tb
+add wave sim:/alu_tb/*
+run
+# ** Error: SLL failed: rs1 << rs2
+#    Time: 130 ns  Iteration: 0  Instance: /alu_tb
+# ** Error: SRL failed: rs1 >> rs2
+#    Time: 170 ns  Iteration: 0  Instance: /alu_tb
+# ** Error: SRA failed: rs1 >> rs2
+#    Time: 190 ns  Iteration: 0  Instance: /alu_tb
+# ** Error: SRL failed: rs1 >> imm
+#    Time: 210 ns  Iteration: 0  Instance: /alu_tb
+# ** Error: Branch failed: rs1 != rs2
+#    Time: 250 ns  Iteration: 0  Instance: /alu_tb
+# ** Error: Branch failed: rs1 >= rs2
+#    Time: 290 ns  Iteration: 0  Instance: /alu_tb
+# ** Error: Branch failed: rs1 != imm
+#    Time: 330 ns  Iteration: 0  Instance: /alu_tb
+# ** Error: Branch failed: rs1 >= imm
+#    Time: 370 ns  Iteration: 0  Instance: /alu_tb
+# ** Warning: (vsim-3116) Problem reading symbols from linux-vdso.so.1.
+# No such file or directory. (errno = ENOENT)
+# Updating msgviewer database...
+restart
+# ** Warning: (vsim-8683) Uninitialized out port /alu_tb/uut/aluPlus_v(31 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU) to the signal network.
+#         Region: /alu_tb
+quit -sim
+# Compile of mem_ram.vhd was successful.
+# Compile of mem_rom.vhd was successful.
+# Compile of mem_ram_tb.vhd was successful.
+# Compile of mem_rom_tb.vhd was successful.
+# Compile of fetch.vhd was successful.
+# Compile of fetch_tb.vhd was successful.
+# Compile of decoder.vhd was successful.
+# Compile of decoder_tb.vhd was successful.
+# Compile of immediate.vhd was successful.
+# Compile of immediate_tb.vhd was successful.
+# Compile of riscv_types.vhd was successful.
+# Compile of mem_load.vhd was successful.
+# Compile of mem_load_tb.vhd was successful.
+# Compile of mem_store_tb.vhd was successful.
+# Compile of mem_store.vhd was successful.
+# Compile of alu.vhd was successful.
+# Compile of alu_tb.vhd was successful.
+# 17 compiles, 0 failed with no errors. 
+vsim work.alu_tb
+# vsim work.alu_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.alu_tb(bench)#1
+# ** Warning: (vsim-8683) Uninitialized out port /alu_tb/uut/aluPlus_v(31 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU) to the signal network.
+#         Region: /alu_tb
+add wave sim:/alu_tb/*
+run
+# ** Error: SLL failed: rs1 << rs2
+#    Time: 130 ns  Iteration: 0  Instance: /alu_tb
+# ** Error: SRL failed: rs1 >> rs2
+#    Time: 170 ns  Iteration: 0  Instance: /alu_tb
+# ** Error: SRA failed: rs1 >> rs2
+#    Time: 190 ns  Iteration: 0  Instance: /alu_tb
+# ** Error: SRL failed: rs1 >> imm
+#    Time: 210 ns  Iteration: 0  Instance: /alu_tb
+# ** Error: Branch failed: rs1 != rs2
+#    Time: 250 ns  Iteration: 0  Instance: /alu_tb
+# ** Error: Branch failed: rs1 >= rs2
+#    Time: 290 ns  Iteration: 0  Instance: /alu_tb
+# ** Error: Branch failed: rs1 != imm
+#    Time: 330 ns  Iteration: 0  Instance: /alu_tb
+# ** Error: Branch failed: rs1 >= imm
+#    Time: 370 ns  Iteration: 0  Instance: /alu_tb
+# ** Warning: (vsim-3116) Problem reading symbols from linux-vdso.so.1.
+# No such file or directory. (errno = ENOENT)
+# Updating msgviewer database...

@@ -1,0 +1,14 @@
+# //  ModelSim SE-64 10.0_1 Jan  8 2011 Linux 6.5.0-26-generic
+# //
+# //  Copyright 1991-2011 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -do {set NumericStdNoWarnings 1; run 1000ms; exit} -quiet mem_ram_tb 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: Failed to find design unit work.mem_ram_tb.
+# Optimization failed
+# Error loading design

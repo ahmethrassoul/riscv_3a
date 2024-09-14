@@ -1,0 +1,709 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/modelsim/scripts
+T_opt
+Z1 Vcm2VaQccnle=RV6i3PJnj3
+Z2 04 8 5 work fetch_tb bench 1
+Z3 =3-000000000000-66227af6-c7960-7af1
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OL;O;10.0_1;49
+Z7 d/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/modelsim/scripts
+T_opt1
+Z8 VVRed5gDaoOcYTf1D<8jAz0
+R2
+Z9 =2-000000000000-6622773b-c32-7241
+R4
+Z10 n@_opt1
+R6
+R7
+T_opt2
+Z11 VeR?8[ke>Q2XiTlE:gFSj23
+Z12 04 11 5 work mem_load_tb bench 1
+Z13 =3-000000000000-66214798-e7f8e-3534
+R4
+Z14 n@_opt2
+R6
+R7
+T_opt3
+Z15 V;dDOdQBA5>Sf`e0h9Z82L2
+R2
+Z16 =2-000000000000-663a324d-3cb66-752b
+R4
+Z17 n@_opt3
+R6
+R7
+T_opt4
+Z18 VnalO9l_b5?oF3a@V3c<NG0
+Z19 04 10 5 work decoder_tb bench 1
+Z20 =1-000000000000-66477ac3-82b6d-78cc
+R4
+Z21 n@_opt4
+R6
+R7
+T_opt5
+Z22 V7AlE0U[ZSZQYH`e@8Bdje2
+Z23 04 6 5 work alu_tb bench 1
+Z24 =1-000000000000-66508476-3c5b1-f3b
+R4
+Z25 n@_opt5
+R6
+R7
+T_opt6
+Z26 VWWMnMXYH8nRLbl?z7QW7=2
+R23
+Z27 =1-000000000000-6651f5d8-f3fa1-2b3b
+R4
+Z28 n@_opt6
+R6
+R7
+Ealu
+Z29 w1716647177
+Z30 DPx4 ieee 11 numeric_std 0 22 k7B<7GmYYYmX;0X]XHFD10
+Z31 DPx3 std 6 textio 0 22 G^o2zK;Vh4eVdKTVo98653
+Z32 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z33 d/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/modelsim
+Z34 8/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/alu.vhd
+Z35 F/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/alu.vhd
+l0
+L5
+Z36 VT9Fe9LieZEcV]Uf_KkY_l3
+Z37 OL;C;10.0_1;49
+32
+Z38 !s108 1716647378.686769
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/alu.vhd|
+Z40 !s107 /users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/alu.vhd|
+Z41 o-work work -2002 -explicit
+Z42 tExplicit 1
+Z43 !s100 k:EUXjc^=ojzHhIYGI_?<3
+Aarch
+R30
+R31
+R32
+Z44 DEx4 work 3 alu 0 22 T9Fe9LieZEcV]Uf_KkY_l3
+l24
+L21
+Z45 VdBPF`T9039c_5h=2@31961
+R37
+32
+Z46 !s108 1716647191.853780
+R39
+R40
+R41
+R42
+Z47 !s100 dObn=X=Rl;1I2iB0]9nO=0
+Ealu_tb
+Z48 w1716647332
+R30
+R31
+R32
+R33
+Z49 8/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/testbench/alu_tb.vhd
+Z50 F/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/testbench/alu_tb.vhd
+l0
+L5
+Z51 VOlBFc120KVkzY5BR@USDJ3
+R37
+32
+Z52 !s108 1716647378.727768
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/testbench/alu_tb.vhd|
+Z54 !s107 /users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/testbench/alu_tb.vhd|
+R41
+R42
+Z55 !s100 2Sz4_L7=h`8eohE:0RKB^1
+Abench
+R30
+R31
+R32
+Z56 DEx4 work 6 alu_tb 0 22 OlBFc120KVkzY5BR@USDJ3
+l36
+L8
+Z57 VREaeK04Lhm=e07N_cnZ@V1
+R37
+32
+R52
+R53
+R54
+R41
+R42
+Z58 !s100 R=Ham6AQ7NaYgPm4kJK`O2
+Edecoder
+Z59 w1716646749
+Z60 DPx4 work 11 riscv_types 0 22 cS3TFf5elNPO4?j8X5A<Y0
+R30
+R31
+R32
+R33
+Z61 8/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/decoder.vhd
+Z62 F/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/decoder.vhd
+l0
+L6
+Z63 V[?7XnQcojm<^`A0d5E2jB2
+R37
+32
+Z64 !s108 1716647378.324757
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/decoder.vhd|
+Z66 !s107 /users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/decoder.vhd|
+R41
+R42
+Z67 !s100 n5[9Y@TRLA[fRThRzWzc>1
+Aarch
+R60
+R30
+R31
+R32
+Z68 DEx4 work 7 decoder 0 22 [?7XnQcojm<^`A0d5E2jB2
+l42
+L39
+Z69 VD26d7EgzgjWd2L3U3GlaV0
+R37
+32
+R64
+R65
+R66
+R41
+R42
+Z70 !s100 d@giCcFJTH::FhAeIa>HJ3
+Edecoder_tb
+Z71 w1716646307
+R30
+R31
+R32
+R33
+Z72 8/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/testbench/decoder_tb.vhd
+Z73 F/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/testbench/decoder_tb.vhd
+l0
+L5
+Z74 Vmc=<N_TalXPH7?mMA<@701
+R37
+32
+Z75 !s108 1716647378.365122
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/testbench/decoder_tb.vhd|
+Z77 !s107 /users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/testbench/decoder_tb.vhd|
+R41
+R42
+Z78 !s100 he[TPo>TQ[MjAeEGZVi@>0
+Abench
+R30
+R31
+R32
+Z79 DEx4 work 10 decoder_tb 0 22 mc=<N_TalXPH7?mMA<@701
+l58
+L8
+Z80 VG^zSa[`jEbEb@IZS;EZ_S0
+R37
+32
+R75
+R76
+R77
+R41
+R42
+Z81 !s100 GRa?9gD2]P8O7I0h0l@]53
+Efetch
+Z82 w1715956130
+R30
+R31
+R32
+R33
+Z83 8/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/fetch.vhd
+Z84 F/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/fetch.vhd
+l0
+L5
+Z85 VS@U0b7MQeaIIQZ7XP7>TY3
+R37
+32
+Z86 !s108 1716647378.246637
+Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/fetch.vhd|
+Z88 !s107 /users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/fetch.vhd|
+R41
+R42
+Z89 !s100 b2MzE3IXVV5OK[1Td8a>?1
+Aarch
+R30
+R31
+R32
+Z90 DEx4 work 5 fetch 0 22 S@U0b7MQeaIIQZ7XP7>TY3
+l21
+L17
+Z91 V^V3RiaYVhmjR4gCIAzz<E0
+R37
+32
+R86
+R87
+R88
+R41
+R42
+Z92 !s100 `XJiI_GcUlzAM@45g_=hX3
+Efetch_tb
+Z93 w1716538428
+R30
+R31
+R32
+R33
+Z94 8/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/testbench/fetch_tb.vhd
+Z95 F/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/testbench/fetch_tb.vhd
+l0
+L9
+Z96 VMKdTC9hicXTPYIAknYCFV3
+R37
+32
+Z97 !s108 1716647378.285858
+Z98 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/testbench/fetch_tb.vhd|
+Z99 !s107 /users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/testbench/fetch_tb.vhd|
+R41
+R42
+Z100 !s100 hOb12=<HNGh3gCnfI6Znf3
+Abench
+R30
+R31
+R32
+Z101 DEx4 work 8 fetch_tb 0 22 MKdTC9hicXTPYIAknYCFV3
+l37
+L12
+Z102 V56QzdT1>3=RH4_kE:blO@0
+R37
+32
+R97
+R98
+R99
+R41
+R42
+Z103 !s100 mnUW9U?@oN1ojODmPD8C:1
+Eimmediate
+Z104 w1715956133
+R60
+R30
+R31
+R32
+R33
+Z105 8/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/immediate.vhd
+Z106 F/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/immediate.vhd
+l0
+L7
+Z107 VY1Q;B9eTFZek:gR3RjgM]1
+R37
+32
+Z108 !s108 1716647378.404194
+Z109 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/immediate.vhd|
+Z110 !s107 /users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/immediate.vhd|
+R41
+R42
+Z111 !s100 TaPmJDN0=Wam`_S?PUnP_2
+Aarch
+R60
+R30
+R31
+R32
+Z112 DEx4 work 9 immediate 0 22 Y1Q;B9eTFZek:gR3RjgM]1
+l28
+L21
+Z113 VTe^d@_UzVzEnBLAJHmQ`31
+R37
+32
+R108
+R109
+R110
+R41
+R42
+Z114 !s100 `X;7?3NVjDmmhIE05jJLT1
+Eimmediate_tb
+Z115 w1716538452
+R30
+R31
+R32
+R33
+Z116 8/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/testbench/immediate_tb.vhd
+Z117 F/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/testbench/immediate_tb.vhd
+l0
+L9
+Z118 V]]3d6caG`kiCTKj>2GB@b2
+R37
+32
+Z119 !s108 1716647378.444146
+Z120 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/testbench/immediate_tb.vhd|
+Z121 !s107 /users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/testbench/immediate_tb.vhd|
+R41
+R42
+Z122 !s100 B9db^ZLP[:P0?KG1P>iJL3
+Abench
+R30
+R31
+R32
+Z123 DEx4 work 12 immediate_tb 0 22 ]]3d6caG`kiCTKj>2GB@b2
+l36
+L12
+Z124 VeehA:TzOTLlkbW[ZHAe4H1
+R37
+32
+R119
+R120
+R121
+R41
+R42
+Z125 !s100 U<PFJal?Cj3:9WZ4ADogz3
+Emem_load
+Z126 w1715957773
+R60
+R30
+R31
+R32
+R33
+Z127 8/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/mem_load.vhd
+Z128 F/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/mem_load.vhd
+l0
+L6
+Z129 V=hm7gamS0zBXBlW<KVN^_1
+R37
+32
+Z130 !s108 1716647378.524277
+Z131 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/mem_load.vhd|
+Z132 !s107 /users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/mem_load.vhd|
+R41
+R42
+Z133 !s100 ]kC5[Uclk4?oPhlWaV[ID0
+Aarch
+R60
+R30
+R31
+R32
+Z134 DEx4 work 8 mem_load 0 22 =hm7gamS0zBXBlW<KVN^_1
+l22
+L18
+Z135 VmNMdaTGkn2Lm7enU8;jj=0
+R37
+32
+R130
+R131
+R132
+R41
+R42
+Z136 !s100 liL8XTi9Y0IzzPbmz`KEl3
+Emem_load_tb
+Z137 w1716538477
+R30
+R31
+R32
+R33
+Z138 8/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/testbench/mem_load_tb.vhd
+Z139 F/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/testbench/mem_load_tb.vhd
+l0
+L9
+Z140 VPdjjaL8CHOE@UUOJT:Q2R3
+R37
+32
+Z141 !s108 1716647378.564548
+Z142 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/testbench/mem_load_tb.vhd|
+Z143 !s107 /users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/testbench/mem_load_tb.vhd|
+R41
+R42
+Z144 !s100 B`2j=dG^jR]0ze1@m@0zo2
+Abench
+R30
+R31
+R32
+Z145 DEx4 work 11 mem_load_tb 0 22 PdjjaL8CHOE@UUOJT:Q2R3
+l32
+L12
+Z146 VLJnF2GAAY?lOzQG@DVODn0
+R37
+32
+R141
+R142
+R143
+R41
+R42
+Z147 !s100 Bo3zD7Sk6@3Beb7f>K6BP1
+Emem_ram
+Z148 w1715956136
+Z149 DPx4 ieee 16 std_logic_textio 0 22 nS@;e8VD1o]DCVjBMSZYk3
+R30
+R31
+R32
+R33
+Z150 8/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/mem_ram.vhd
+Z151 F/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/mem_ram.vhd
+l0
+L7
+Z152 VA3WGO>lgae?@5IQ5TUV;B1
+R37
+32
+Z153 !s108 1716647378.085885
+Z154 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/mem_ram.vhd|
+Z155 !s107 /users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/mem_ram.vhd|
+R41
+R42
+Z156 !s100 VRK:af`i]Q`SWmX9_5k<J2
+Aarch
+R149
+R30
+R31
+R32
+Z157 DEx4 work 7 mem_ram 0 22 A3WGO>lgae?@5IQ5TUV;B1
+l42
+L23
+Z158 VzYB]Z:^cE3J;`j:=AB]2<0
+R37
+32
+R153
+R154
+R155
+R41
+R42
+Z159 !s100 A3bz>:=dF=fQOaShSC>LT2
+Emem_ram_tb
+Z160 w1716538491
+R30
+R31
+R32
+R33
+Z161 8/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/testbench/mem_ram_tb.vhd
+Z162 F/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/testbench/mem_ram_tb.vhd
+l0
+L9
+Z163 V@GcS[:H^]Yo=>BNM8z:mW0
+R37
+32
+Z164 !s108 1716647378.167766
+Z165 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/testbench/mem_ram_tb.vhd|
+Z166 !s107 /users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/testbench/mem_ram_tb.vhd|
+R41
+R42
+Z167 !s100 5PIC?WHR>9m871QZTTbD_3
+Abench
+R30
+R31
+R32
+Z168 DEx4 work 10 mem_ram_tb 0 22 @GcS[:H^]Yo=>BNM8z:mW0
+l41
+L12
+Z169 VJ<IQINL5<RPCFDzO0PAN60
+R37
+32
+R164
+R165
+R166
+R41
+R42
+Z170 !s100 gBBBk<gVDWOY^2Yk?Ndgl3
+Emem_rom
+Z171 w1715956138
+R149
+R30
+R31
+R32
+R33
+Z172 8/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/mem_rom.vhd
+Z173 F/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/mem_rom.vhd
+l0
+L7
+Z174 V5z1aAbh6oil5Pm20[W:C42
+R37
+32
+Z175 !s108 1716647378.126715
+Z176 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/mem_rom.vhd|
+Z177 !s107 /users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/mem_rom.vhd|
+R41
+R42
+Z178 !s100 EIU8AbPaXcH:l1igga`@c2
+Aarch
+R149
+R30
+R31
+R32
+Z179 DEx4 work 7 mem_rom 0 22 5z1aAbh6oil5Pm20[W:C42
+l40
+L21
+Z180 VeH^Lm5eb^?YlPXZc]HHOP0
+R37
+32
+R175
+R176
+R177
+R41
+R42
+Z181 !s100 ?76jKJ3Zc551D]Go?>OjN3
+Emem_rom_tb
+Z182 w1713532250
+R30
+R31
+R32
+R33
+Z183 8/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/testbench/mem_rom_tb.vhd
+Z184 F/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/testbench/mem_rom_tb.vhd
+l0
+L9
+Z185 VbYcQWel2<IHnDjFGzEV[^0
+R37
+32
+Z186 !s108 1716647378.206949
+Z187 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/testbench/mem_rom_tb.vhd|
+Z188 !s107 /users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/testbench/mem_rom_tb.vhd|
+R41
+R42
+Z189 !s100 IUCEL;Rb]4?YQRXG0M?<m3
+Abench
+R30
+R31
+R32
+Z190 DEx4 work 10 mem_rom_tb 0 22 bYcQWel2<IHnDjFGzEV[^0
+l37
+L12
+Z191 VCPT:m@mTK0WhFN<1Nz`8^0
+R37
+32
+R186
+R187
+R188
+R41
+R42
+Z192 !s100 [EE_Fa5341zOiVD[4F1oB2
+Emem_store
+Z193 w1715956139
+R149
+R30
+R31
+R32
+R33
+Z194 8/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/mem_store.vhd
+Z195 F/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/mem_store.vhd
+l0
+L7
+Z196 VQg?fOR[zze21X=W7?@De<2
+R37
+32
+Z197 !s108 1716647378.645933
+Z198 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/mem_store.vhd|
+Z199 !s107 /users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/mem_store.vhd|
+R41
+R42
+Z200 !s100 D_2?:T87Q?<3JC75:oVPE2
+Aarch
+R149
+R30
+R31
+R32
+Z201 DEx4 work 9 mem_store 0 22 Qg?fOR[zze21X=W7?@De<2
+l23
+L19
+Z202 VhUbTj;]SjXC1>bgekFCmR1
+R37
+32
+R197
+R198
+R199
+R41
+R42
+Z203 !s100 1jJn]MgT80n7DM[@g:T@I0
+Emem_store_tb
+Z204 w1716538577
+R30
+R31
+R32
+R33
+Z205 8/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/testbench/mem_store_tb.vhd
+Z206 F/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/testbench/mem_store_tb.vhd
+l0
+L9
+Z207 V:b@z2Uhz8>13_<RiIReSI3
+R37
+32
+Z208 !s108 1716647378.605281
+Z209 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/testbench/mem_store_tb.vhd|
+Z210 !s107 /users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/testbench/mem_store_tb.vhd|
+R41
+R42
+Z211 !s100 QzRb@T1:bPe><aVTR[=`E1
+Abench
+R30
+R31
+R32
+Z212 DEx4 work 12 mem_store_tb 0 22 :b@z2Uhz8>13_<RiIReSI3
+l32
+L12
+Z213 V2B_7?cC[mC4CXS]U6nYWW3
+R37
+32
+R208
+R209
+R210
+R41
+R42
+Z214 !s100 PAEMJ81ooiIZ=EXZH9E1g3
+Eriscv
+Z215 w1713269770
+R60
+R30
+R31
+R32
+R33
+Z216 8/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/riscv.vhd
+Z217 F/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/riscv.vhd
+l0
+L6
+Z218 VKMQY8h6hGNzKaZj:S1<3b0
+R37
+32
+R41
+R42
+Z219 !s100 D9QFnk[fbRdeGLDmSF3L:3
+Z220 !s108 1713269780.561121
+Z221 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/riscv.vhd|
+Z222 !s107 /users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/riscv.vhd|
+Eriscv_soc
+Z223 w1711113833
+R30
+R31
+R32
+R33
+Z224 8/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/riscv_soc.vhd
+Z225 F/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/riscv_soc.vhd
+l0
+L5
+Z226 VVD?C]L1:g7Y>6[ojjA33f3
+R37
+32
+R41
+R42
+Z227 !s100 WkailQFjZ?O1kFaB<klZn2
+Z228 !s108 1713269780.597584
+Z229 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/riscv_soc.vhd|
+Z230 !s107 /users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/riscv_soc.vhd|
+Priscv_types
+R30
+R31
+R32
+R223
+R33
+Z231 8/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/riscv_types.vhd
+Z232 F/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/riscv_types.vhd
+l0
+L5
+Z233 VcS3TFf5elNPO4?j8X5A<Y0
+R37
+32
+b1
+Z234 !s108 1716647378.483522
+Z235 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|/users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/riscv_types.vhd|
+Z236 !s107 /users/elo/myate/SNUM2/RISC5/ENSSAT-RISCV-Design-Student/src/riscv_types.vhd|
+R41
+R42
+Z237 !s100 YD0@AUICdzG9@Y2hJ22F70
+Bbody
+Z238 DBx4 work 11 riscv_types 0 22 cS3TFf5elNPO4?j8X5A<Y0
+R30
+R31
+R32
+l0
+L40
+Z239 V><QKFmEfzbDaJ2XI[mDo]0
+R37
+32
+R234
+R235
+R236
+R41
+R42
+nbody
+Z240 !s100 3Sa_8IZXZMeihQE_PL`LU2
